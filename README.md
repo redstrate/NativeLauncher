@@ -1,6 +1,9 @@
 # nativelauncher
+
+(This is no longer needed nor used by Astra. Dalamud can do this natively and better, see [my guide](https://docs.xiv.zone/concept/dalamud/) on how to call it.)
+
 This is an ACL bypass for Win32 apps, but specifically is used for [Dalamud](https://github.com/goatcorp/Dalamud) injection into FFXIV. This is a C++ alternative for
-[FFXIVQuickLauncher's own bypass which is in C#](https://github.com/goatcorp/FFXIVQuickLauncher/blob/master/src/XIVLauncher.Common.Windows/NativeAclFix.cs). This makes it usable for launchers which aren't in C# like [Astra](https://sr.ht/~redstrate/astra). This is mainly used for external use (i.e. calling NativeLauncher as a wrapper).
+[FFXIVQuickLauncher's own bypass which is in C#](https://github.com/goatcorp/FFXIVQuickLauncher/blob/master/src/XIVLauncher.Common.Windows/NativeAclFix.cs). This makes it usable for launchers which aren't in C# like [Astra](https://github.com/redstrate/astra). This is mainly used for external use (i.e. calling NativeLauncher as a wrapper).
 
 ## Usage
 * The first argument is the port number of your TCP server
